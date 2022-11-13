@@ -1,0 +1,35 @@
+$color-60: #F8F8F8;
+$color-30: #2A83E8;
+$color-30-95: #2a83e8f2;
+$color-10: #0052E0;
+$color-text-light: #FFFFFF;
+$color-text-light-80: #ffffffcc;
+$color-text-dark: #2A83E8;
+
+@mixin font-logo {
+  font-size: 3.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: $color-text-light;
+}
+
+@mixin font-title {
+  font-size: 2.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: $color-text-light;
+}
+
+@mixin font-subtitle {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: $color-text-light;
+}
+
+@mixin font-text {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: $color-text-light;
+}

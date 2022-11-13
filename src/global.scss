@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p, label, input, button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+img {
+  object-fit: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+input {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.global--content {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
